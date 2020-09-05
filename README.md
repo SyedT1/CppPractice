@@ -1,2 +1,2 @@
 # Contents
-* ##Binary Exponentiation
+##Binary Exponentiation
