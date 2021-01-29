@@ -15,11 +15,11 @@ int main(){
 		if(com_[i]){
 		   p++;
 		   if(p%100==1){
-             cout<<i<<' ';
+                     cout<<i<<' ';
 		   }
-           for(ll j = i*i;j<ll(1e8);j+=i){
-              com_[j]=false;
-           }
+                   for(ll j = i*i;j<ll(1e8);j+=i){
+                     com_[j]=false;
+                   }
 		}
 	}
 	for(ll i = ll(1e4)+1;i<ll(1e8);i++){
